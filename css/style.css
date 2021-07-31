@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: sans-serif;
+}
+
+main {
+    padding: 25px 150px;
+    background-color: lightgreen;
+    min-height: 100vh;
+}
+
+header {
+  background-color: green;
+  padding: 10px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+nav {
+  padding: 25px;
+}
+
+header nav li {
+  display: inline;
+  text-decoration: none;
+  padding: 10px;
+  padding-bottom: 0;
+  font-color: white;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+header nav li a:link, nav li a:visited {
+  text-decoration: none;
+  color: white;
+  border-bottom: 2pt solid white;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: 'Georgia', serif;
+    text-align: center;
+}
+
+/*---contact form styling--*/
+
+.contact-form {
+  border: 2pt solid black;
+  padding: 20px;
+  max-width: 500px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.label_input_wrap {
+  display: block;
+}
+
+label {
+  display: block;
+}
+
+.reset input,
+.submit input {
+  background-color: green;
+  color: white;
+  padding: 5px 20px;
+  font-size: 16px;
+}
+
+.input-section {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 5px 10px;
+  border-radius: 2px;
+}
