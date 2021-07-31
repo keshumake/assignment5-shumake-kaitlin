@@ -52,6 +52,7 @@ h1 {
   max-width: 500px;
   border-radius: 5px;
   margin: 0 auto;
+  background-color: #999;
 }
 
 .label_input_wrap {
@@ -77,6 +78,10 @@ label {
 input {
   padding: 5px 10px;
   border-radius: 2px;
+}
+
+.submit input:hover {
+  background-color: black;
 }
 
 /* footer */
