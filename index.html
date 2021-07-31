@@ -22,36 +22,36 @@
         <h1>Submit an inquiry below.</h1>
         <br>
         <br>
-            <form class="contact-form" name="contact" method="post" action="">
-              <div class="name input-section">
-                <label for="fullname" class="label-input-wrap">Full Name:</label>
-                <input type="text" name="fullname" id="fullname" />
-              </div>
+        <form class="contact-form" id="test_form" name="test_form" method="" action="form.php" onsubmit="return validateForm(this)">
+          <div class="name input-section">
+            <label for="fullname" class="label-input-wrap">Full Name:</label>
+            <input type="text" name="fullname" id="fullname" />
+          </div>
 
-              <div class="email input-section">
-                <label for="email" class="label_input_wrap">Email Address:</label>
-                <input type="email" name="email" id="email" />
-              </div>
+          <div class="email input-section">
+            <label for="email" class="label_input_wrap">Email Address:</label>
+            <input type="email" name="email" id="email" />
+          </div>
 
-              <div class="telephone input-section">
-                <label for="telephone" class="label_input_wrap">Telephone:</label>
-                <input type="tel" name="telephone" id="telephone" />
-              </div>
+          <div class="telephone input-section">
+            <label for="telephone" class="label_input_wrap">Telephone:</label>
+            <input type="tel" name="telephone" id="telephone" />
+          </div>
 
-            <div class="pronouns input-section">
-              <label for="pronouns" class="label_input_wrap">Your Preferred Pronouns:</label>
-              <input type="text" name="pronouns" id="pronouns" />
-            </div>
+          <div class="pronouns input-section">
+            <label for="pronouns" class="label_input_wrap">Your Preferred Pronouns:</label>
+            <input type="text" name="pronouns" id="pronouns" />
+          </div>
 
-            <div class="comments input-section">
-              <label for="comments" class="label_input_wrap">Comments:</label>
-              <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Please enter your comments here."></textarea>
-            </div>
+          <div class="comments input-section">
+            <label for="comments" class="label_input_wrap">Comments:</label>
+            <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Please enter your comments here."></textarea>
+          </div>
 
-            <div class="submit">
-              <input type="submit" name="submit" value="Send Message" />
-            </div>
-          </form>
+          <div class="submit">
+            <input type="submit" name="submit" value="Send Message" />
+          </div>
+        </form>
 
 
 
