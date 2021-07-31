@@ -7,12 +7,12 @@
 
 main {
     padding: 25px 150px;
-    background-color: lightgreen;
+    background-color: antiquewhite;
     min-height: 100vh;
 }
 
 header {
-  background-color: green;
+  background-color: #555;
   padding: 10px;
   text-align: center;
   margin: 0 auto;
@@ -64,7 +64,7 @@ label {
 
 .reset input,
 .submit input {
-  background-color: green;
+  background-color: navy;
   color: white;
   padding: 5px 20px;
   font-size: 16px;
@@ -77,4 +77,14 @@ label {
 input {
   padding: 5px 10px;
   border-radius: 2px;
+}
+
+/* footer */
+footer {
+  position: relative;
+  padding: 25px 0;
+  background-color: #555;
+  text-align: center;
+  width: 100%;
+  color: white;
 }
